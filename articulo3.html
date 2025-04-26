@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Dancing+Script:wght@400..700&family=Pinyon+Script&family=Quicksand:wght@300..700&family=Rock+Salt&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/4828a4f7eb.js" crossorigin="anonymous"></script>
+    <style>
+       
+ p {
+            font-family: Quicksand;
+        }
+
+        .botonn {
+            transition: transform .3s ease !important;
+            background-color: #661A34 !important;
+            color: white !important;
+            font-weight: bolder;
+            font-family: Quicksand;
+        }
+
+            .botonn:hover {
+                transform: scale(1.1);
+                background-color: #661A34 !important;
+                color: white !important;
+                font-weight: bolder;
+                font-family: Quicksand;
+            }
+
+            .botonn:active {
+                transform: scale(1.1);
+                background-color: #661A34 !important;
+                color: white !important;
+                font-weight: bolder;
+                font-family: Quicksand;
+            }
+
+       
+
+        @media screen and (max-width: 991px) {
+            h1 {
+                font-size: 9vw;
+            }
+
+            #articulo {
+                padding: 0 7vw!important;
+                margin: 10vw 0 0!important;
+            }
+
+            #articulo p {
+                font-size: 5vw;
+                text-align: center;
+            }
+
+            #imag {
+                width: 100%;
+            }
+
+                #imag img {
+                    width: 100%;
+                }
+
+            .botonn {
+                font-size: 5vw !important;
+            }
+
+           
+            
+        }
+    </style>
+
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg" style="background-color: #661A34;">
+        <div class="container-fluid" style="flex-wrap: wrap;">
+
+            <button class="navbar-toggler" id="hamburguesaBotton" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span id="hamburguesa"><i class="fas fa-bars"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav elNav">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                    <a class="nav-link" href="nosotros.html">Nosotros</a>
+                    <a class="nav-link" href="blog.html">Blog</a>
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+              
+                </div>
+            </div>
+
+            <div class="d-flex" style="background-color: #661A34;" id="finalNav">
+
+           
+                <a href="login.html" class="btn me-2 loginRegistro" id="b1" style="background-color: white; color: white!important;">Login</a>
+                <a href="registro.html" class="btn m-auto reg loginRegistro" id="b2" style="background-color: white; color: white!important;">Registro</a>
+           
+              
+            </div>
+
+        </div>
+    </nav>
+
+
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+
+    <h1 style="text-align: center; margin: 50px 0px;">Moda consciente: vestir con propósito</h1>
+
+    <div style="display: flex; align-items: center; flex-direction: column;">
+        <div id="imag">
+            <img src="Imagenes/Articulo3.jpg" alt="Alternate Text" />
+        </div>
+        <div style="padding: 0 60px; font-size: 30px; margin: 60px 0;" id="articulo">
+            <p>
+                En los últimos años, la moda femenina ha dado un giro hacia la conciencia ecológica y social. Cada vez más marcas apuestan
+                 por materiales orgánicos, procesos éticos y producción local, respondiendo a una clientela que ya no compra solo por estética,
+                  sino por valores. Vestir bien hoy también significa apoyar iniciativas que respetan el planeta y a las personas detrás de cada prenda.
+            </p>
+
+            <p>
+                Este cambio ha impulsado un nuevo concepto de lujo: menos cantidad, más calidad. Prendas duraderas, atemporales y con historia propia
+                 se vuelven protagonistas en el armario femenino. Así, la mujer moderna no solo busca verse bien, sino sentirse bien con lo que lleva puesto, 
+                 sabiendo que su estilo también refleja un compromiso consciente.
+            </p>
+         
+
+            <div style="display: flex; justify-content: center; margin-top: 50px;">
+                <a href="blog.html" class="botonn btn" style="font-size: 20px;">Volver</a>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+
+    <footer>
+        <div class="footer">
+            <div class="divColor">
+                <h4>DIRECCIÓN</h4>
+                <p>Juaquin v Gonzalez 362 floresta CABA</p>
+                <p>Flores, Argentina</p>
+            </div>
+            <div class="divColor">
+                <h4>HORARIOS</h4>
+                <p>Lun-Vie: 9:00 AM - 16:00 PM</p>
+                <p>Sab: 9:00 AM - 14:00 AM</p>
+            </div>
+            <div class="divColor">
+                <h4>CONTACTO</h4>
+                <p><a href="#"><i class="fab fa-whatsapp" style="color: white; font-weight: bolder; margin-right: 3px;"></i></a>11-5454-9514</p>
+                <p><a href="#"><i class="fab fa-whatsapp" style="color: white; font-weight: bolder; margin-right: 3px;"></i></a>11-5509-8804</p>
+                <p><a href="https://www.facebook.com/florwil.flores.3" target="_blank"><i class="fa fa-facebook" style="color: white; font-weight: bolder; margin-right: 3px;"></i></a>Florwil Flores</p>
+                <p><a href="https://www.instagram.com/indumentaria.florwil/" target="_blank"><i class="fa fa-instagram" style="color: white; font-weight: bolder; margin-right: 3px;"></i></a>indumentaria.florwil</p>
+            </div>
+        </div>
+        <div class="divColor" id="loUltimo" style="">
+            © 2025 Florwil Flores. Todos los derechos reservados.
+        </div>
+    </footer>
+    
+        <div>
+            <a href="https://www.instagram.com/mauzeon/" target="_blank">
+                <img src="Imagenes/m.png" alt="Alternate Text" id="logoAbajo" /></a>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,248 @@
+.elNav a {
+    font-weight: bolder !important;
+    transition: transform .3s ease !important;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white !important;
+}
+
+    .elNav a:hover {
+        transform: scale(1.1);
+    }
+
+nav {
+    background-color: #661A34;
+}
+
+
+#b1 {
+    padding-top: 7px;
+}
+
+#b2 {
+    padding-top: 7px;
+}
+
+.loginRegistro {
+    font-weight: bolder !important;
+    transition: transform .3s ease !important;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white!important; 
+    color: #661A34!important;
+}
+
+    .loginRegistro:hover {
+        transform: scale(1.1);
+    }
+
+.botonSalir {
+    transition: transform .3s ease !important;
+}
+
+    .botonSalir:hover {
+        transform: scale(1.1);
+    }
+
+#hamburguesa {
+    color: white;
+    border-color: white;
+}
+
+#hamburguesaBotton {
+    border-color: white;
+    box-shadow: none;
+    font-size: 75px;
+}
+
+    #hamburguesaBotton:focus {
+        box-shadow: 0 0 0 2px white;
+    }
+
+    #logoAbajo {
+        width: 7vw;
+        position: fixed;
+        top: 85%;
+        left: 90%;
+        z-index: 3;
+    }
+
+
+
+/* 
+///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+
+@media screen and (min-width: 992px) {
+    .reg {
+        height: 40px;
+    }
+
+    .botonSalir {
+        font-size: 16px;
+    }
+
+   
+}
+
+
+
+/* 
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+          /*                   RESPONSIVE                       
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+@media screen and (max-width: 991px) {
+
+   
+    .boton {
+        font-size: 41px;
+    }
+
+    #finalNav {
+        padding: 7px;
+        border-width: 5px; /* Grosor del borde de 5 píxeles */
+        border-style: solid; /* Tipo de borde (necesario para que se vea el borde) */
+        border-color: #661A34; /* Color del borde */
+        justify-content: center;
+        gap: 3px;
+    }
+
+    #b1 {
+        font-size: 5vw;
+        align-content: center;
+    }
+
+    #b2 {
+        font-size: 5vw;
+        align-content: center;
+    }
+
+  
+    #lista {
+        font-size: 50px;
+        margin-bottom: 0px !important;
+    }
+
+    .botonSalir {
+        font-size: 50px !important;
+    }
+
+    #logoAbajo {
+        width: 9vw;
+        position: fixed;
+        top: 90%;
+        left: 87%;
+        z-index: 3;
+    }
+
+    .elNav a {
+        font-size: 5vw;
+        padding-left: 10px;
+    }
+
+        .elNav a:hover {
+            transform: none;
+        }
+
+    #hamburguesaBotton {
+        margin: 10px;
+        font-size: 7.5vw;
+    }
+
+    #lblUser {
+        font-size: 24px;
+    }
+}
+
+/*         /////////////////////////////////////////////////////////////////////
+   /////////////////////////////////////////////////////////////////////
+   /////////////////////////////////////////////////////////////////////
+*/    
+
+@media screen and (max-width: 1399px) {
+    .responsive {
+        margin: 25px 0;
+    }
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 70px;
+    justify-content: center;
+    background-color: #661A34;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding: 16px 70px;
+    text-align: center;
+    gap: 30px;
+}
+
+    .footer p {
+        margin: 0px;
+    }
+
+h4 {
+    font-weight: bolder;
+}
+
+.divColor {
+    color: white;
+    margin: 0px 50px;
+}
+
+.botonColeccion a {
+    font-weight: bolder !important;
+    transition: transform .3s ease !important;
+    font-family: Quicksand;
+    color: white !important;
+}
+
+    .botonColeccion a:hover {
+        transform: scale(1.1);
+    }
+
+#loUltimo {
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight: bolder; 
+    font-weight: bolder; 
+    text-align: center; 
+    background-color: #661A34; 
+    padding-bottom: 16px; 
+    margin: 0;
+}
+
+
+
+
+    @media screen and (max-width: 991px) {
+
+        
+
+        /* FOOTER*/
+
+        .footer {
+            gap: 1.5vh;
+            padding: 0;
+            padding-top: 1vh;
+        }
+
+        h4 {
+            font-size: 5vw!important;
+        }
+
+        .divColor p {
+            font-size: 4vw !important;
+        }
+
+        #loUltimo {
+            font-size: 4vw !important;
+        }
+
+        .divColor img {
+            width: 200px !important;
+        }
+    }
